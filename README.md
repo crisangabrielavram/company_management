@@ -7,4 +7,5 @@ Company management java app
 Database: MySQL
 
 # 3. External resources
-
+-Mysql Jconnector
+https://dev.mysql.com/downloads/connector/j/5.0.html
