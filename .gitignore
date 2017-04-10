@@ -6,4 +6,4 @@ test
 build.xml 
 commons-lang3-3.4.jar
 manifest.mf
-
+mysql-connector-java-5.1.41-bin.jar

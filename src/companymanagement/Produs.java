@@ -10,6 +10,7 @@ package gestiunefirma;
  * @author User
  */
 public class Produs {
+
     private int id;
     private double BasePrice;
     private double SalePrice;
@@ -23,26 +24,22 @@ public class Produs {
     private String Country;
     private String Distributor;
     private double procent;
+
     public Produs(int id, double BasePrice, double SalePrice, double tax, double adaos, String ProductName, String ProductType, String ProductCategory, String Manufacturer, String Country, String Distributor) {
         this.id = id;
         this.tax = tax;
         this.adaos = adaos;
         this.BasePrice = BasePrice;
-         procent=(tax+adaos)*BasePrice;
-        this.SalePrice = BasePrice+procent;
+        procent = (tax + adaos) * BasePrice;
+        this.SalePrice = BasePrice + procent;
         this.ProductName = ProductName;
         this.ProductType = ProductType;
         this.ProductCategory = ProductCategory;
         this.Manufacturer = Manufacturer;
         this.Country = Country;
         this.Distributor = Distributor;
-    
+
     }
-
-   
-
-  
-    
 
     /**
      * @return the id
@@ -82,8 +79,6 @@ public class Produs {
     /**
      * @param SalePrice the SalePrice to set
      */
-    
-
     /**
      * @return the tax
      */

@@ -10,6 +10,7 @@ package gestiunefirma;
  * @author User
  */
 public class Marfa {
+
     private int id;
     private int idMarfa;
     private int row;
@@ -18,16 +19,16 @@ public class Marfa {
     private int idSlot;
     private String category;
     private String code;
-   
-    public Marfa(int id,int idMarfa,int idSlot, int row, int bunk, int line, String category, String code) {
-        this.id=id;
+
+    public Marfa(int id, int idMarfa, int idSlot, int row, int bunk, int line, String category, String code) {
+        this.id = id;
         this.idMarfa = idMarfa;
         this.row = row;
         this.bunk = bunk;
         this.line = line;
         this.category = category;
         this.code = code;
-        this.idSlot=idSlot;
+        this.idSlot = idSlot;
     }
 
     /**
@@ -142,11 +143,4 @@ public class Marfa {
         this.code = code;
     }
 
-   
-
-  
-    
-    
-   
-    
 }
